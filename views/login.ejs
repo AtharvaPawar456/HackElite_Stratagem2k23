@@ -1,0 +1,21 @@
+<%- include("partials/header") %>
+
+    <main class="page login-page">
+        <section class="clean-block clean-form dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Log In</h2>
+                    <p>If you don't have a patient id then please submit your registration.</p>
+                </div>
+                <form>
+                    <div class="mb-3"><label class="form-label" for="email">Patient ID</label><input class="form-control item" type="email" id="email"></div>
+                    <div class="mb-3"><label class="form-label" for="password">Password</label><input class="form-control" type="password" id="password"></div>
+                    <div class="mb-3">
+                        <div class="form-check"><input class="form-check-input" type="checkbox" id="checkbox"><label class="form-check-label" for="checkbox">Remember me</label></div>
+                    </div><button class="btn btn-primary" type="submit">Log In</button>
+                </form>
+            </div>
+        </section>
+    </main><!-- Start: Footer Dark -->
+
+<%- include("partials/footer") %>
